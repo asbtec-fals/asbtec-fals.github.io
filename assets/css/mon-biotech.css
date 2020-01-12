@@ -1,0 +1,23 @@
+.biotech-link{
+    color: inherit;
+    font-size: 1.1em;
+}
+
+::-webkit-slider-runnable-track{
+    margin: 10%;
+}
+
+.biotech-table{
+    height: 150px;
+}
+
+/*@media (min-width: 992px) {*/
+    #header{
+        background: url("../../imatges/mon-biotech.jpg") center center / cover no-repeat;
+    }
+/*}*/
+
+
+.content { 
+    font-size: 1.125rem;
+}

@@ -1,0 +1,21 @@
+/*color guai: ff4899*/
+
+#header{
+    background: url("../../imatges/quisom.jpg") center center / cover no-repeat;
+}
+
+#header-title{
+    backdrop-filter: blur(8px);
+    filter: initial;
+}
+
+.objective{
+    width: 80%;    
+}
+
+.profile-picture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

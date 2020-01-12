@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--metadata goes in the head-->
+        <title>
+            Contacte
+        </title>
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="assets/css/general-style.css">
+    </head>
+
+    <body>
+        
+        <!-- nav -->
+        <nav id="mainNavbar" class="navbar navbar-expand-lg navbar-light bg-light-green">
+                <a class="navbar-brand" href="index.html">ASBTEC</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavId">
+              <ul class="navbar-nav mr-auto">
+                  <li class="nav-item">
+                            <a class="nav-link active" href="inici.html">Inici</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="quisom.html">Qui Som? <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mon-biotech.html">Mon Biotech</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="transparencia.html">Transparencia</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline mx-lg-1">
+                        <input class="form-control mx-lg-1" type="text" placeholder="Search">
+                        <button class="btn btn-outline-success my-2 my-lg-0" type="submit">Search</button>
+                    </form>
+                    <a class='nav-item btn btn-outline-orange btn-default mx-lg-1 my-2 my-lg-0' href="socis.html">Fes-te Soci</a>
+                    <a class='nav-item btn btn-outline-orange btn-default mx-lg-1 my-2 my-lg-0' href="contacte.html">Contacta'ns</a>
+                </div>
+        </nav>
+        </div>
+        <!-- main content -->
+        <div class="container text-content">
+            <h1>Contacta'ns</h1>
+            <p>Qualsevol dubte, aportació…? Omple el formulari!</p>
+            <form>
+                <div class="form-group">
+                    <label for="name"><strong>El teu nom</strong></label>
+                    <input name="name" class="form-control" id="name" type="text" required>
+                </div>
+                <div class="form-group">
+                    <label for="email"><strong>El vostre correu electrònic</strong></label>
+                    <input name="email" class="form-control" id="email" type="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="assumpte"><strong>Assumpte</strong></label>
+                    <input id="assumpte" name="assumpte" class="form-control" type="text" required>
+                </div>
+                <div class="form-group">
+                    <label for="message"><strong>El teu missatge</strong></label>
+                    <textarea id="message" name="message" class="form-control" rows="10"></textarea>
+                </div>
+                <div class="form-group">
+                    <label>
+                        <input id="acceptance" name="acceptance" type="checkbox" required>
+                        He llegit i accepto la política de privacitat
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label>
+                        <input id="webRights" name="webRights" type="checkbox" required>
+                        Emplenant aquest formulari consentiu que es desi i gestioni la vostra informació en aquest lloc web.
+                    </label>
+                </div>
+                <div>
+                    <input type="submit" class="btn btn-default"/>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
